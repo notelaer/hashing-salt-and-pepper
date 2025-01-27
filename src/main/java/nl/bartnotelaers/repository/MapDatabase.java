@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * a very simple simulation of a database,
+ * simulates a database,
  * used for storing a username and a hash (in this case, salt+password+pepper)
  **/
 public class MapDatabase {

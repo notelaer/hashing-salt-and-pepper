@@ -4,8 +4,7 @@ import nl.bartnotelaers.hashutil.HashHelper;
 import nl.bartnotelaers.hashutil.SaltMaker;
 
 public class HashService {
-    // TODO implement simple keystretch by adding number of rounds to hash
-    // TODO implement possibility of using other hashing algorithms
+
     private PepperService pepperService;
 
     public HashService(PepperService pepperService) {
